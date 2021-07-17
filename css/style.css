@@ -46,7 +46,8 @@ header p{
     max-width: 500px;
     margin: auto;
     margin-top: 20px;
-    padding: 0 10px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 /* NAV */
