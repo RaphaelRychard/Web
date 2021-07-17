@@ -122,7 +122,10 @@ main article > ol {
     padding-left: 60px;
     margin-bottom: 10px;
 }
-
+main article strong{
+    color: #2f2f2f;
+    text-transform: capitalize;
+}
 main > article abbr{
     text-decoration: none;
     cursor: pointer;
