@@ -42,12 +42,12 @@ header h1{
 }
 header p{
     font: normal normal 1.2em var(--font-padrão);
-    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.274);
     max-width: 500px;
     margin: auto;
     margin-top: 20px;
     padding-left: 10px;
     padding-right: 10px;
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.274);
 }
 
 /* NAV */
