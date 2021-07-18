@@ -99,6 +99,7 @@ main h3{
     text-shadow: 1px 1px 2px #00000041;
     color: var(--cor4);
     padding-top: 15px;
+    padding-bottom: 5px;
 }
 
 main p{
