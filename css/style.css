@@ -42,7 +42,7 @@ header h1{
 }
 header p{
     font: normal normal 1.2em var(--font-padrão);
-    max-width: 500px;
+    max-width: 600px;
     margin: auto;
     margin-top: 20px;
     padding-left: 10px;
