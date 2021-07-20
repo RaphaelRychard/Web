@@ -92,6 +92,7 @@ main h2{
     font: normal normal 2em var(--font-titilos);
     text-shadow: 1px 1px 2px #00000027;
     color: var(--cor4);
+    margin-top: 20px;
 }
 
 main h3{
@@ -114,13 +115,16 @@ main img{
     width: 100%;
     display: block;
     margin: auto;
-    border: solid 1px rgba(185, 185, 185, 0.213);
-    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.165);
 }
 
 main article > ol {
     line-height: 1.3em;
     padding-left: 60px;
+    margin-bottom: 10px;
+}
+main article > ul {
+    line-height: 1.3em;
+    padding-left: 30px;
     margin-bottom: 10px;
 }
 main article strong{
