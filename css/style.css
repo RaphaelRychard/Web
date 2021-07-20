@@ -137,3 +137,14 @@ main > article abbr{
     font-weight: 300;
 }
 
+footer{
+    background-color: var(--cor4);
+    
+    padding: 50px;
+    margin-top: 80px;
+    box-shadow: 0px -7px 7px #00000031;
+}
+footer p{
+    text-align: center;
+    color: white;
+}
