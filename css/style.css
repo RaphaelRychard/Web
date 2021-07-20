@@ -147,5 +147,5 @@ footer{
 footer p{
     text-align: center;
     color: white;
-    font: normal normal 1em var(--font-padrão);
+    font: normal normal 0.7em var(--font-padrão);
 }
