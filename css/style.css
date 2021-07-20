@@ -139,12 +139,12 @@ main > article abbr{
 
 footer{
     background-color: var(--cor4);
-    
-    padding: 50px;
-    margin-top: 80px;
+    padding: 5px 0;
+    margin-top: 50px;
     box-shadow: 0px -7px 7px #00000031;
 }
 footer p{
     text-align: center;
     color: white;
+    font: normal normal 1em var(--font-padrão);
 }
