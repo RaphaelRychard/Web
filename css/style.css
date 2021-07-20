@@ -115,6 +115,7 @@ main img{
     width: 100%;
     display: block;
     margin: auto;
+    border: solid 1px #e2e2e2;
 }
 
 main article > ol {
