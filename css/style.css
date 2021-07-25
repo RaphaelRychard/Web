@@ -5,7 +5,9 @@
     src: url(../fonts/NightHuntDemo.otf);
 }
 
-:root{
+/* CONFIGURAÇÔES GLOBAIS */
+
+:root {
     /*Color*/
     --cor0: #BACAD4;
     --cor1: #7BB2D4;
@@ -17,33 +19,33 @@
     --font-titilos: 'Hun', sans-serif;
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-body{
-    background-color:#ececec;
+body {
+    background-color: #ececec;
     color: #2f2f2f;
     font-family: var(--font-padrão);
 }
 
 /* HEADER */
 
-header{
-    padding-top:40px;
+header {
+    padding-top: 40px;
     padding-bottom: 50px;
     color: white;
     text-align: center;
     background-image: linear-gradient(to bottom, var(--cor2), var(--cor4));
 }
 
-header h1{
-    font: 600 normal 3em var(--font-padrão) ;
+header h1 {
+    font: 600 normal 3em var(--font-padrão);
     text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.274);
 }
 
-header p{
+header p {
     font: normal normal 1.2em var(--font-padrão);
     max-width: 600px;
     margin: auto;
@@ -55,20 +57,20 @@ header p{
 
 /* NAV */
 
-nav{
+nav {
     background-color: var(--cor4);
     padding-bottom: 10px;
     box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.179);
 }
 
-nav > a {
+nav>a {
     padding: 10px 15px;
     color: white;
     text-decoration: none;
     border-radius: 3px;
 }
 
-nav > a:hover{
+nav>a:hover {
     font-weight: bolder;
     background-color: var(--cor0);
     color: var(--cor4);
@@ -77,32 +79,36 @@ nav > a:hover{
 
 /* MAIN */
 
-main{
+main {
     min-width: 30px;
     max-width: 1000px;
     margin: auto;
-    box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, 0.192);  
+    box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, 0.192);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 
-main > article{
-    background: white;  
+main>article {
+    background: white;
     padding: 15px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 
-main h1{ 
+main h1 {
     font: normal normal 2.5em var(--font-titilos);
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.213);
     color: var(--cor4);
 }
 
-main h2{
+main h2 {
     font: normal normal 2em var(--font-titilos);
     text-shadow: 1px 1px 2px #00000027;
-    color: var(--cor4); 
+    color: var(--cor4);
     margin-top: 20px;
 }
 
-main h3{
+main h3 {
     font: normal normal 1.5em var(--font-titilos);
     text-shadow: 1px 1px 2px #00000041;
     color: var(--cor4);
@@ -110,7 +116,7 @@ main h3{
     padding-bottom: 5px;
 }
 
-main p{
+main p {
     margin: 10px 0;
     line-height: 1.6em;
     text-indent: 30px;
@@ -118,23 +124,24 @@ main p{
     font: 300 normal 1em var(--font-padrão);
 }
 
-main img{
+main img {
     width: 100%;
     display: block;
     margin: auto;
     border: solid 1px #e2e2e2;
+    border-radius: 10px;
 }
 
-main article > ol {
+main article>ol {
     line-height: 1.3em;
     padding-left: 50px;
     margin-bottom: 10px;
 }
 
-main article > ol a{
+main article>ol a {
     text-decoration: none;
     color: #2f2f2f;
-    text-shadow: 2px 2px 3px #00000028;  
+    text-shadow: 2px 2px 3px #00000028;
 }
 
 main article ul {
@@ -145,18 +152,18 @@ main article ul {
     text-decoration: none;
 }
 
-main article strong{
+main article strong {
     color: #2f2f2f;
     text-transform: capitalize;
 }
 
-main > article abbr{
+main>article abbr {
     text-decoration: none;
     cursor: pointer;
     font-weight: 300;
 }
 
-main abbr:hover{
+main abbr:hover {
     color: var(--cor4);
     font-weight: bold;
     transition: .25s;
@@ -165,14 +172,14 @@ main abbr:hover{
 
 /* FOOTER */
 
-footer{
+footer {
     background-color: var(--cor4);
     padding: 5px 0;
     margin-top: 50px;
     box-shadow: 0px -7px 7px #00000018;
 }
 
-footer p{
+footer p {
     text-align: center;
     color: white;
     font: normal normal 0.7em var(--font-padrão);
