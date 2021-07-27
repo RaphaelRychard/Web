@@ -1,8 +1,12 @@
 @charset "UTF-8";
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,400&display=swap');
+
 @font-face {
     font-family: 'Hun';
-    src: url(../fonts/NightHuntDemo.otf);
+    src: url(../fonts/NightHuntDemo.otf) format('opentype'), url('Night HuntDemo.otf');
+    font-weight: normal;
+    font-style: normal;
 }
 
 /* CONFIGURAÇÔES GLOBAIS */
