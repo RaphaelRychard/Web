@@ -3,188 +3,188 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,400&display=swap');
 
 @font-face {
-    font-family: 'Hun';
-    src: url(../fonts/NightHuntDemo.otf) format('opentype'), url('Night HuntDemo.otf');
-    font-weight: normal;
-    font-style: normal;
+	font-family: 'Hun';
+	src: url(../fonts/NightHuntDemo.otf) format('opentype'), url('Night HuntDemo.otf');
+	font-weight: normal;
+	font-style: normal;
 }
 
 /* CONFIGURAÇÔES GLOBAIS */
 
 :root {
-    /*Color*/
-    --cor0: #BACAD4;
-    --cor1: #7BB2D4;
-    --cor2: #5A829B;
-    --cor3: #4E7187;
-    --cor4: #415f70;
-    /*font*/
-    --font-padrão: 'Roboto', sans-serif;
-    --font-titilos: 'Hun', sans-serif;
+	/*Color*/
+	--cor0: #bacad4;
+	--cor1: #7bb2d4;
+	--cor2: #5a829b;
+	--cor3: #4e7187;
+	--cor4: #415f70;
+	/*font*/
+	--font-padrão: 'Roboto', sans-serif;
+	--font-titilos: 'Hun', sans-serif;
 }
 
 * {
-    margin: 0;
-    padding: 0;
+	margin: 0;
+	padding: 0;
 }
 
 body {
-    background-color: #ececec;
-    color: #2f2f2f;
-    font-family: var(--font-padrão);
+	background-color: #ececec;
+	color: #2f2f2f;
+	font-family: var(--font-padrão);
 }
 
 /* HEADER */
 
 header {
-    padding-top: 40px;
-    padding-bottom: 50px;
-    color: white;
-    text-align: center;
-    background-image: linear-gradient(to bottom, var(--cor2), var(--cor4));
+	padding-top: 40px;
+	padding-bottom: 50px;
+	color: white;
+	text-align: center;
+	background-image: linear-gradient(to bottom, var(--cor2), var(--cor4));
 }
 
 header h1 {
-    font: 600 normal 3em var(--font-padrão);
-    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.274);
+	font: 600 normal 3em var(--font-padrão);
+	text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.274);
 }
 
 header p {
-    font: normal normal 1.2em var(--font-padrão);
-    max-width: 600px;
-    margin: auto;
-    margin-top: 20px;
-    padding-left: 10px;
-    padding-right: 10px;
-    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.274);
+	font: normal normal 1.2em var(--font-padrão);
+	max-width: 600px;
+	margin: auto;
+	margin-top: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.274);
 }
 
 /* NAV */
 
 nav {
-    background-color: var(--cor4);
-    padding-bottom: 10px;
-    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.179);
+	background-color: var(--cor4);
+	padding-bottom: 10px;
+	box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.179);
 }
 
-nav>a {
-    padding: 10px 15px;
-    color: white;
-    text-decoration: none;
-    border-radius: 3px;
+nav > a {
+	padding: 10px 15px;
+	color: white;
+	text-decoration: none;
+	border-radius: 3px;
 }
 
-nav>a:hover {
-    font-weight: bolder;
-    background-color: var(--cor0);
-    color: var(--cor4);
-    transition: .6s;
+nav > a:hover {
+	font-weight: bolder;
+	background-color: var(--cor0);
+	color: var(--cor4);
+	transition: .6s;
 }
 
 /* MAIN */
 
 main {
-    min-width: 30px;
-    max-width: 1000px;
-    margin: auto;
-    box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, 0.192);
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
+	min-width: 30px;
+	max-width: 1000px;
+	margin: auto;
+	box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, 0.192);
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
 }
 
-main>article {
-    background: white;
-    padding: 15px;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
+main > article {
+	background: white;
+	padding: 15px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
 }
 
 main h1 {
-    font: normal normal 2.5em var(--font-titilos);
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.213);
-    color: var(--cor4);
+	font: normal normal 2.5em var(--font-titilos);
+	text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.213);
+	color: var(--cor4);
 }
 
 main h2 {
-    font: normal normal 2em var(--font-titilos);
-    text-shadow: 1px 1px 2px #00000027;
-    color: var(--cor4);
-    margin-top: 20px;
+	font: normal normal 2em var(--font-titilos);
+	text-shadow: 1px 1px 2px #00000027;
+	color: var(--cor4);
+	margin-top: 20px;
 }
 
 main h3 {
-    font: normal normal 1.5em var(--font-titilos);
-    text-shadow: 1px 1px 2px #00000041;
-    color: var(--cor4);
-    padding-top: 15px;
-    padding-bottom: 5px;
+	font: normal normal 1.5em var(--font-titilos);
+	text-shadow: 1px 1px 2px #00000041;
+	color: var(--cor4);
+	padding-top: 15px;
+	padding-bottom: 5px;
 }
 
 main p {
-    margin: 10px 0;
-    line-height: 1.6em;
-    text-indent: 30px;
-    text-align: justify;
-    font: 300 normal 1em var(--font-padrão);
+	margin: 10px 0;
+	line-height: 1.6em;
+	text-indent: 30px;
+	text-align: justify;
+	font: 300 normal 1em var(--font-padrão);
 }
 
 main img {
-    width: 100%;
-    display: block;
-    margin: auto;
-    border: solid 1px #e2e2e2;
-    border-radius: 10px;
+	width: 100%;
+	display: block;
+	margin: auto;
+	border: solid 1px #e2e2e2;
+	border-radius: 10px;
 }
 
-main article>ol {
-    line-height: 1.3em;
-    padding-left: 50px;
-    margin-bottom: 10px;
+main article > ol {
+	line-height: 1.3em;
+	padding-left: 50px;
+	margin-bottom: 10px;
 }
 
-main article>ol a {
-    text-decoration: none;
-    color: #2f2f2f;
-    text-shadow: 2px 2px 3px #00000028;
+main article > ol a {
+	text-decoration: none;
+	color: #2f2f2f;
+	text-shadow: 2px 2px 3px #00000028;
 }
 
 main article ul {
-    line-height: 1.3em;
-    padding-left: 30px;
-    margin-bottom: 10px;
-    font-weight: 300;
-    text-decoration: none;
+	line-height: 1.3em;
+	padding-left: 30px;
+	margin-bottom: 10px;
+	font-weight: 300;
+	text-decoration: none;
 }
 
 main article strong {
-    color: #2f2f2f;
-    text-transform: capitalize;
+	color: #2f2f2f;
+	text-transform: capitalize;
 }
 
-main>article abbr {
-    text-decoration: none;
-    cursor: pointer;
-    font-weight: 300;
+main > article abbr {
+	text-decoration: none;
+	cursor: pointer;
+	font-weight: 300;
 }
 
 main abbr:hover {
-    color: var(--cor4);
-    font-weight: bold;
-    transition: .25s;
-    cursor: pointer;
+	color: var(--cor4);
+	font-weight: bold;
+	transition: .25s;
+	cursor: pointer;
 }
 
 /* FOOTER */
 
 footer {
-    background-color: var(--cor4);
-    padding: 5px 0;
-    margin-top: 50px;
-    box-shadow: 0px -7px 7px #00000018;
+	background-color: var(--cor4);
+	padding: 5px 0;
+	margin-top: 50px;
+	box-shadow: 0px -7px 7px #00000018;
 }
 
 footer p {
-    text-align: center;
-    color: white;
-    font: normal normal 0.7em var(--font-padrão);
+	text-align: center;
+	color: white;
+	font: normal normal 0.7em var(--font-padrão);
 }
